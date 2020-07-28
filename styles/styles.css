@@ -1,0 +1,44 @@
+html, body, body * {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 64px;
+}
+
+header .menu h1 {
+  font-size: 32px;
+}
+
+header .menu h1::before {
+  content: url('../assets/icons/star.svg');
+  margin-right: 8px;
+}
+
+header .menu .icons {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu .icons img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+header .banner {
+  width: 100%;
+}
