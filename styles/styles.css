@@ -42,7 +42,7 @@ header .menu h1::before {
 }
 
 header .menu .icons {
-  width: 12%;
+  width: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,6 +117,7 @@ footer {
 footer .newsletter-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   padding: 32px 64px;
   border-bottom: 0.3px solid rgba(165, 161, 161, 0.5);
@@ -204,4 +205,85 @@ footer .icons .payments img {
 footer .icons .payments {
   display: flex;
   align-items: center;
+}
+
+
+@media (max-width: 792px) {
+  header .menu {
+    padding: 32px 24px;
+  }
+
+  header .menu h1 {
+    font-size: 22px;
+  }
+
+  header .menu .icons img {
+    width: 18px;
+    height: 18px;
+  }
+
+  main .title {
+    padding: 24px 24px;
+  }
+
+  main .title h2 {
+    font-size: 14px;
+  }
+
+  main .title span {
+    font-size: 12px;
+  }
+  
+  main .grid {
+    padding: 36px 24px;
+  }
+
+  main .grid .content h3 {
+    font-size: 14px;
+  }
+  
+  main .grid .content h3 span {
+    font-size: 14px;
+  }
+  
+  main .grid .content img {
+    width: 125px;
+    height: 145px;
+  }
+
+  footer .newsletter-container {
+    padding: 32px 24px;
+  }
+  
+  footer .newsletter-container .links a {
+    font-size: 14px;
+  }
+  
+  .newsletter form {
+    margin-top: 24px;
+  }
+  
+  .newsletter form button {
+    width: 325px;
+    font-size: 14px;
+    margin-top: 16px;
+    border-radius: 4px;
+  }
+
+  .newsletter label {
+    font-size: 14px;
+  }
+  
+  .newsletter input {
+    width: 325px;
+    font-size: 14px;
+  }
+
+  footer .icons {
+    padding: 32px 24px;
+  }
+
+  footer .icons .payments img {
+    width: 32px;
+  }
 }
